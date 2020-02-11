@@ -12,7 +12,7 @@ We will prepare a simple protein for simulation to review the main steps of the 
 
 To ease the process, we will use a helper library (BioBB) that performs all the necessary steps automatically, while allowing to follow the details. 
 
-There are several simulation codes available. We will use GROMACS (http://www,gromacs.org). GROMACS is free software and one of the most widely used MD simulations codes. 
+There are several simulation codes available. We will use GROMACS (http://www.gromacs.org). GROMACS is free software and one of the most widely used MD simulations codes. 
 
 ## Software
 
@@ -26,7 +26,7 @@ Simulation: GROMACS.
 Visualization: Pymol, VMD
 Scripting: python, Biobb, GromacsWrapper python module, …
 
-## Installation procedure
+# Installation procedure
 
 - Install conda software (https://docs.conda.io/en/latest/miniconda.html) if not available.
 - Create a working directory ex. …/SBIO2020.
