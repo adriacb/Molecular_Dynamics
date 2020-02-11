@@ -29,22 +29,31 @@ Scripting: python, Biobb, GromacsWrapper python module, …
 ## Installation procedure
 
 - Install conda software (https://docs.conda.io/en/latest/miniconda.html) if not available.
-- Create a working directory ex. …/SBIO2020
-- Create a working directory for structure checking /SBIO2020/check and MD setup /SBIO2020/setup
-- Install software. Structure check
+- Create a working directory ex. …/SBIO2020.
+- Create a working directory for structure checking /SBIO2020/check and MD setup /SBIO2020/setup.
+- Install software. Structure check.
 
   $ cd SBIO2020/check
+  
   $ git clone --branch devel http://mmb.irbbarcelona.org/gitlab/BioExcel/structureChecking.git biobb_structure_checking
+  
   $ git clone --branch devel http://mmb.irbbarcelona.org/gitlab/BioExcel/structure_manager.git biobb_structure_manager
+  
   $ conda create -n biobb_check
+  
   $ conda activate biobb_check
+  
   $ conda install python=3.6
+  
   $ conda install biopython
+  
   $ conda install psutil
+  
   $ conda install -c salilab modeller
+  
   $ export PYTHONPATH=biobb_structure_checking:biobb_structure_manager
   
-Run check structure program as:
+  Run check structure program as:
 
   $ biobb_structure_checking/bin/check_structure
  
